@@ -17,3 +17,31 @@ img{
 p{
     color: #777;
 }
+.carousel-img {
+    display: none;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+  }
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Adjust the height as desired */
+  }
+  .rose-svg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    height: auto;
+    z-index: -1;
+  }
+
+  .rose-left {
+    left: 10px;
+  }
+
+  .rose-right {
+    right: 10px;
+  }
